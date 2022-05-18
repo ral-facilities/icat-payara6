@@ -31,13 +31,13 @@ dgw-dl-api/topcat   |         |               |              |
 ids.server          |         |               |              | 
 ids.storage-file    |         |               |              | 
 ids.storage-test    |         |               |              | 
-ids dls plugin      |         |               |              | 
 ids.r2dfoo          |         |               |              | 
+dls-ids-plugin      |         |               |              | 
 common-doi          |         |               |              | 
-authn.uows_isis     |         |               |              | 
+authn.uows (isis)   |         |               |              | 
 isis-ids-plugin     |         |               |              | 
 authn.uows_clf      |         |               |              | 
-authn.ip            |         |               |              | 
+authn.ip_clf        |         |               |              | 
 clf-ids             |         |               |              | 
 ecat2               |         |               |              | 
 
