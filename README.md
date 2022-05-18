@@ -25,6 +25,17 @@ authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT
 authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT
 authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT
 authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT
+authn.oidc          |         |               |              | 
+icat.oaipmh         |         |               |              | 
+dgw-dl-api/topcat   |         |               |              | 
+ids.server          |         |               |              | 
+ids.storage-file    |         |               |              | 
+ids.storage-test    |         |               |              | 
+ids dls plugin      |         |               |              | 
+ids.r2dfoo          |         |               |              | 
+common-doi          |         |               |              | 
+authn.uows_isis     |         |               |              | 
+isis-ids-plugin     |         |               |              | 
 authn.uows_clf      |         |               |              | 
 authn.ip            |         |               |              | 
 clf-ids             |         |               |              | 
