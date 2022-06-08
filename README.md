@@ -36,8 +36,8 @@ dls-ids-plugin      |         |               |              |
 common-doi          |         |               |              | 
 authn.uows (isis)   |         |               |              | 
 isis-ids-plugin     |         |               |              | 
-authn.uows_clf      |         |               |              | 
-authn.ip_clf        |         |               |              | 
+authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT
+authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT
 clf-ids             |         |               |              | 
 ecat2               |         |               |              | 
 
