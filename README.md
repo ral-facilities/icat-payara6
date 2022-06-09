@@ -81,10 +81,11 @@ Note: `<scope>provided</scope>` is correct. However, changing the scope may brea
 
  - Change imports from `javax` to `jakarta`. Some things are still in the `javax` namespace so change them back after:
 ```
-find . -name '*.java' | xargs sed -i 's/import javax\./import jakarta./' 
-find . -name '*.java' | xargs sed -i 's/import jakarta\.naming\./import javax.naming./' 
-find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.datatype\./import javax.xml.datatype./' 
-find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.namespace\./import javax.xml.namespace./' 
+find . -name '*.java' | xargs sed -i 's/import javax\./import jakarta./'
+find . -name '*.java' | xargs sed -i 's/import jakarta\.naming\./import javax.naming./'
+find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.datatype\./import javax.xml.datatype./'
+find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.namespace\./import javax.xml.namespace./'
+find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.parsers\./import javax.xml.parsers./'
 ```
 
  - Run `mvn install` to build the component and run the test suite. Fix any minor issues. If there are major issues, create a card on the project board.
