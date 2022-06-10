@@ -38,8 +38,8 @@ authn.uows (isis)   |         |               |              |
 isis-ids-plugin     |         |               |              | 
 authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT
 authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT
-clf-ids             |         |               |              | 
-ecat2               |         |               |              | 
+clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT
+ecat2               | Done    | !!!           |              | 
 
 ## Instructions – Phase 1 
 
