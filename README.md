@@ -40,6 +40,7 @@ authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | 
 authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
 clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
 ecat2               | Done    | !!(maven)     |              |                | AK
+icat-ansible        |         |               |              |                | MR - in progress
 
 ## Instructions – Phase 1 
 
