@@ -14,32 +14,32 @@ This is because JakartaEE 10 and Payara 6 have not yet been releaed.
 
 ## Components
 
-Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version
----                 | ---     | ---           | ---          | ---
-icat.utils          | N/A     | N/A           | N/A          | N/A
-icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT
-icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT
-icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT
-icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT
-authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT
-authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT
-authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT
-authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT
-authn.oidc          |         |               |              | 
-icat.oaipmh         |         |               |              | 
-dgw-dl-api/topcat   |         |               |              | 
-ids.server          |         |               |              | 
-ids.storage-file    |         |               |              | 
-ids.storage-test    |         |               |              | 
-ids.r2dfoo          |         |               |              | 
-dls-ids-plugin      |         |               |              | 
-common-doi          |         |               |              | 
-authn.uows (isis)   |         |               |              | 
-isis-ids-plugin     |         |               |              | 
-authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT
-authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT
-clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT
-ecat2               | Done    | !!!           |              | 
+Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to
+---                 | ---     | ---           | ---          | ---            | ---
+icat.utils          | N/A     | N/A           | N/A          | N/A            |
+icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
+icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK
+icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK
+icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
+authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
+authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
+authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
+authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
+authn.oidc          |         |               |              |                | 
+icat.oaipmh         |         |               |              |                | VB
+dgw-dl-api/topcat   |         |               |              |                | VB
+ids.server          |         |               |              |                | AM
+ids.storage-file    |         |               |              |                | AM
+ids.storage-test    |         |               |              |                | AM
+ids.r2dfoo          |         |               |              |                | AM
+dls-ids-plugin      |         |               |              |                | AM
+common-doi          |         |               |              |                | ISIS?
+authn.uows (isis)   |         |               |              |                | ISIS?
+isis-ids-plugin     |         |               |              |                | ISIS?
+authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
+authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
+clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
+ecat2               | Done    | !!(maven)     |              |                | AK
 
 ## Instructions – Phase 1 
 
