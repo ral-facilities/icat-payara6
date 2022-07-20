@@ -26,7 +26,7 @@ authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | 
 authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
 authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
 authn.oidc          |         |               |              |                | 
-icat.oaipmh         |         |               |              |                | VB
+icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB
 dgw-dl-api/topcat   |         |               |              |                | VB
 ids.server          |         |               |              |                | AM
 ids.storage-file    |         |               |              |                | AM
