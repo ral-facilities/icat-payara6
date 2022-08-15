@@ -28,19 +28,25 @@ authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | 
 authn.oidc          |         |               |              |                | 
 icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB
 dgw-dl-api/topcat   |         |               |              |                | VB
-ids.server          |         |               |              |                | AM
-ids.storage-file    |         |               |              |                | AM
-ids.storage-test    |         |               |              |                | AM
-ids.r2dfoo          |         |               |              |                | AM
-dls-ids-plugin      |         |               |              |                | AM
+ids.server          |         | See issues    |              |                | AK
+ids.storage-file    |         |               |              |                | 
+ids.storage-test    |         |               |              |                | 
+ids.r2dfoo          |         |               |              |                | 
+dls-ids-plugin      |         |               |              |                | 
 common-doi          |         |               |              |                | ISIS?
 authn.uows (isis)   |         |               |              |                | ISIS?
 isis-ids-plugin     |         |               |              |                | ISIS?
 authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
 authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
 clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
-ecat2               | Done    | !!(maven)     |              |                | AK
+ecat2               | Done    | See issues    |              |                | AK
 icat-ansible        |         |               |              |                | MR - in progress
+
+## Issues / Blockers
+
+ - No logging. https://github.com/payara/Payara/issues/5898
+ - Unknown issue with ids.server. This is likely minor but very difficult to diagnose without logging.
+ - Google Web Toolkit required by eCat does not support the Jakarta namespace. I've managed to build the required GWT libraries from a messily patched copy of the code but not yet tested it.
 
 ## Instructions – Phase 1 
 
