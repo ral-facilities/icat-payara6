@@ -95,7 +95,7 @@ find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.namespace\./import 
 find . -name '*.java' | xargs sed -i 's/import jakarta\.xml\.parsers\./import javax.xml.parsers./'
 ```
 
- - Run `mvn install` to build the component and run the test suite. Fix any minor issues. If there are major issues, create a card on the project board.
+ - Run `mvn install` to build the component and run the test suite. Fix any issues.
 
  - Test the component in Payara 6-Alpha.
 
