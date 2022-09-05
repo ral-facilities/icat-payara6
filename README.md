@@ -25,12 +25,12 @@ authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | 
 authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
 authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
 authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
-authn.oidc          |         |               |              |                | VB
+authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB
 icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB
 dgw-dl-api/topcat   |         |               |              |                | VB
-ids.server          |         | See issues    |              |                | AK
-ids.storage-file    |         |               |              |                | 
-ids.storage-test    |         |               |              |                | 
+ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
+ids.storage-file    | N/A     | N/A           | N/A          | N/A            | 
+ids.storage-test    | N/A     | N/A           | N/A          | N/A            | 
 ids.r2dfoo          |         |               |              |                | 
 dls-ids-plugin      |         |               |              |                | 
 common-doi          |         |               |              |                | ISIS?
@@ -44,8 +44,8 @@ icat-ansible        |         |               |              |                | 
 
 ## Issues / Blockers
 
- - No logging. https://github.com/payara/Payara/issues/5898
- - Unknown issue with ids.server. This is likely minor but very difficult to diagnose without logging.
+ - No logging from slf4j in payara6-Alpha2. Applications don't deploy in payara6-Alpha3. See https://github.com/payara/Payara/issues/5898
+ - 2 integration tests fail in ids.server due to change of behaviour in icat 5.
  - Google Web Toolkit required by eCat does not support the Jakarta namespace. I've managed to build the required GWT libraries from a messily patched copy of the code but not yet tested it.
 
 ## Instructions – Phase 1 
