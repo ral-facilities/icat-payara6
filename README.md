@@ -14,33 +14,33 @@ This is because JakartaEE 10 and Payara 6 have not yet been releaed.
 
 ## Components
 
-Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to
----                 | ---     | ---           | ---          | ---            | ---
-icat.utils          | N/A     | N/A           | N/A          | N/A            |
-icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
-icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK
-icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK
-icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
-authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
-authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
-authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
-authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK
-authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB
-icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB
-dgw-dl-api/topcat   |         |               |              |                | VB
-ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
-ids.storage-file    | N/A     | N/A           | N/A          | N/A            | 
-ids.storage-test    | N/A     | N/A           | N/A          | N/A            | 
-ids.r2dfoo          |         |               |              |                | 
-dls-ids-plugin      |         |               |              |                | 
-common-doi          |         |               |              |                | ISIS?
-authn.uows (isis)   |         |               |              |                | ISIS?
-isis-ids-plugin     |         |               |              |                | ISIS?
-authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | AK
-authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
-clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK
-ecat2               | Done    | See issues    |              |                | AK
-icat-ansible        |         |               |              |                | MR - in progress
+Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to | Check for `python`
+---                 | ---     | ---           | ---          | ---            | ---         | ---
+icat.utils          | N/A     | N/A           | N/A          | N/A            |             | 
+icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
+icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | 
+icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | 
+icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | 
+authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
+authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
+authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
+authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
+authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | 
+icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | 
+dgw-dl-api/topcat   |         |               |              |                | VB          | 
+ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | 
+ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | 
+ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | 
+ids.r2dfoo          |         |               |              |                |             | 
+dls-ids-plugin      |         |               |              |                |             | 
+common-doi          |         |               |              |                | ISIS?       | 
+authn.uows (isis)   |         |               |              |                | ISIS?       | 
+isis-ids-plugin     |         |               |              |                | ISIS?       | 
+authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | 
+authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
+clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
+ecat2               | Done    | See issues    |              |                | AK          | 
+icat-ansible        |         |               |              |                | MR - in progress | 
 
 ## Issues / Blockers
 
