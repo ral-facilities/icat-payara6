@@ -16,21 +16,21 @@ This is because JakartaEE 10 and Payara 6 have not yet been releaed.
 
 Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to | Check for `python`
 ---                 | ---     | ---           | ---          | ---            | ---         | ---
-icat.utils          | N/A     | N/A           | N/A          | N/A            |             | 
-icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
-icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | 
-icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | 
-icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | 
-authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
-authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
-authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
-authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | 
-authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | 
-icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | 
-dgw-dl-api/topcat   |         |               |              |                | VB          | 
-ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | 
-ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | 
-ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | 
+icat.utils          | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/icat.utils/pull/21)
+icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | N/A
+icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/icat.server/pull/300)
+icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | N/A
+icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/icat.lucene/pull/33)
+authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.anon/pull/13)
+authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.db/pull/12)
+authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.ldap/pull/15)
+authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.simple/pull/9)
+authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/authn.oidc/pull/5)
+icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/icat.oaipmh/pull/24)
+dgw-dl-api/topcat   |         |               |              |                | VB          | [PR](https://github.com/ral-facilities/datagateway-download-api/pull/19)
+ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128)
+ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9)
+ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5)
 ids.r2dfoo          |         |               |              |                |             | 
 dls-ids-plugin      |         |               |              |                |             | 
 common-doi          |         |               |              |                | ISIS?       | 
