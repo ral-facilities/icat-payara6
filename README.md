@@ -27,7 +27,7 @@ authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | 
 authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.simple/pull/9)
 authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/authn.oidc/pull/5)
 icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/icat.oaipmh/pull/24)
-dgw-dl-api/topcat   |         |               |              |                | VB          | [PR](https://github.com/ral-facilities/datagateway-download-api/pull/19)
+dgw-dl-api          | Done    | Done          |              | 3.0.0-SNAPSHOT | VB/AK       | :heavy_check_mark:
 ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128)
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9)
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5)
