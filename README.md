@@ -16,7 +16,7 @@ This is because JakartaEE 10 and Payara 6 have not yet been releaed.
 
 Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to | Check for `python`
 ---                 | ---     | ---           | ---          | ---            | ---         | ---
-icat.utils          | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/icat.utils/pull/21)
+icat.utils          | N/A     | N/A           | N/A          | N/A            |             | :heavy_check_mark:
 icat.authentication | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | N/A
 icat.server         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/icat.server/pull/300)
 icat.client         | Done    | Done          |              | 6.0.0-SNAPSHOT | AK          | N/A
@@ -40,12 +40,12 @@ authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | 
 authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
 clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
 ecat2               | Done    | See issues    |              |                | AK          | 
-icat-ansible        |         |               |              |                | MR - in progress | 
+icat-ansible        | Done    | Done          |              |                | MR          | 
 
 ## Issues / Blockers
 
  - No logging from slf4j in payara6-Alpha2. Applications don't deploy in payara6-Alpha3. See https://github.com/payara/Payara/issues/5898
- - 2 integration tests fail in ids.server due to change of behaviour in icat 5.
+ - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
  - Google Web Toolkit required by eCat does not support the Jakarta namespace. I've managed to build the required GWT libraries from a messily patched copy of the code but not yet tested it.
 
 ## Instructions – Phase 1 
