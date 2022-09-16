@@ -31,8 +31,8 @@ dgw-dl-api          | Done    | Done          |              | 3.0.0-SNAPSHOT | 
 ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128)
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9)
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5)
-ids.r2dfoo          |         |               |              |                | VB          | 
-dls-ids-plugin      |         |               |              |                |             | 
+ids.r2dfoo          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | 
+dls-ids-plugin      | N/A     | N/A           | N/A          | N/A            |             | 
 common-doi          |         |               |              |                | ISIS?       | 
 authn.uows (isis)   |         |               |              |                | ISIS?       | 
 isis-ids-plugin     |         |               |              |                | ISIS?       | 
