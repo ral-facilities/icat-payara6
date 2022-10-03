@@ -21,13 +21,13 @@ icat.authentication | Done    | Done          | Done         | 5.0.0-SNAPSHOT | 
 icat.server         | Done    | Done          | Done         | 6.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 icat.client         | Done    | Done          | Done         | 6.0.0-SNAPSHOT | AK          | N/A
 icat.lucene         | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/icat.lucene/pull/33)
-authn.anon          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.anon/pull/13)
-authn.db            | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.db/pull/12)
-authn.ldap          | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.ldap/pull/15)
-authn.simple        | Done    | Done          |              | 3.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/authn.simple/pull/9)
+authn.anon          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
+authn.db            | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
+authn.ldap          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
+authn.simple        | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/authn.oidc/pull/5)
 icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/icat.oaipmh/pull/24)
-dgw-dl-api          | Done    | Done          |              | 3.0.0-SNAPSHOT | VB/AK       | :heavy_check_mark:
+dgw-dl-api          | Done    | Done          | See issues   | 3.0.0-SNAPSHOT | VB/AK       | :heavy_check_mark:
 ids.server          | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128)
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9)
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5)
@@ -45,6 +45,7 @@ icat-ansible        | Done    | Done          |              |                | 
 ## Issues / Blockers
 
  - No logging from slf4j in payara6-Alpha2. Applications don't deploy in payara6-Alpha3/4. See https://github.com/payara/Payara/issues/5898
+ - There is no working version of `org.glassfish.main.extras:glassfish-embedded-all` for glassfish 7, which is required for the datagateway-download-api integration tests.
  - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
  - Google Web Toolkit required by eCat does not support the Jakarta namespace. I've managed to build the required GWT libraries from a messily patched copy of the code but not yet tested it.
 
