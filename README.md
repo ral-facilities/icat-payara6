@@ -39,7 +39,8 @@ isis-ids-plugin     |         |               |              |                | 
 authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
-ecat2               | Done    | See issues    |              |                | AK          | 
+GWT                 | Done    |               |              |                | AK          | N/A
+ecat2               | Done    | See issues    |              |                | AK          | N/A
 icat-ansible        | Done    | Done          |              |                | MR          | 
 
 ## Issues / Blockers
