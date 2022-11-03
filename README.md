@@ -36,9 +36,9 @@ dls-ids-plugin      | N/A     | N/A           | N/A          | N/A            | 
 common-doi          |         |               |              |                | ISIS?       | 
 authn.uows (isis)   |         |               |              |                | ISIS?       | 
 isis-ids-plugin     |         |               |              |                | ISIS?       | 
-authn.uows_clf      | Done    | Done          |              | 2.0.0-SNAPSHOT | AK          | 
-authn.ip_clf        | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
-clf-ids             | Done    | Done          |              | 5.0.0-SNAPSHOT | AK          | 
+authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | :heavy_check_mark:
+authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
+clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 ecat2               | Done    | See issues    |              |                | AK          | 
 icat-ansible        | Done    | Done          |              |                | MR          | 
 
