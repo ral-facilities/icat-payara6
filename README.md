@@ -39,8 +39,8 @@ isis-ids-plugin     |         |               |              |                | 
 authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
-GWT                 | Done    |               |              |                | AK          | N/A
-ecat2               | Done    | See issues    |              |                | AK          | N/A
+GWT                 | Done    | -             | 90% done     |                | AK          | N/A
+ecat2               | Done    | -             | 90% done     |                | AK          | N/A
 icat-ansible        | Done    | Done          |              |                | MR          | 
 
 ## Issues / Blockers
@@ -48,7 +48,7 @@ icat-ansible        | Done    | Done          |              |                | 
  - No logging from slf4j in payara6-Alpha2. Applications don't deploy in payara6-Alpha3/4. See https://github.com/payara/Payara/issues/5898
  - There is no working version of `org.glassfish.main.extras:glassfish-embedded-all` for glassfish 7, which is required for the datagateway-download-api integration tests.
  - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
- - Google Web Toolkit required by eCat does not support the Jakarta namespace. I've managed to build the required GWT libraries from a messily patched copy of the code but not yet tested it.
+ - Google Web Toolkit required by eCat does not support the Jakarta namespace.
 
 ## Instructions – Phase 2
 
