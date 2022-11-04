@@ -40,7 +40,7 @@ authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | 
 authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 GWT                 | Done    | -             | 90% done     |                | AK          | N/A
-ecat2               | Done    | -             | 90% done     |                | AK          | N/A
+ecat2               | Done    | -             | 90% done     | 5.0.0-SNAPSHOT | AK          | N/A
 icat-ansible        | Done    | Done          |              |                | MR          | 
 
 ## Issues / Blockers
