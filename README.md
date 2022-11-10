@@ -4,6 +4,25 @@
 
 Payara 6 will be released in Q2 2002, after which Payara 5 Community Edition will not receive security updates. Payara 6 will only support Jakarta EE 10 and Java 11, so we need to upgrade all our components.
 
+## Useful links
+
+ - Payara distributions: [https://mvnrepository.com/artifact/fish.payara.distributions/payara]
+ - Icatproject repo: [https://repo.icatproject.org/repo/org/icatproject/]
+ - Nexus: [http://nexus.esc.rl.ac.uk:8081/nexus/#view-repositories]
+ - Oracle driver: [https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11]
+
+## Workarounds / fixes
+
+### slf4j bug
+ 1. Delete `xmlsec.jar` and `webservices-extra-xmlsec.jar` from the `glassfish/modules` directory.
+ 2. Download `xmlsec-rebundled-XXX.jar` from http://nexus.esc.rl.ac.uk:8081/nexus/content/repositories/releases/org/apache/santuario/xmlsec-rebundled/ and put it in the `glassfish/modules` directory
+ 3. Restart Payara.
+
+### Oracle driver
+ 1. Put the oracle driver (`ojdbc11-XXX.jar`) in the `glassfish/domains/domain1/lib` directory.
+ 2. Also, move (not copy) `org.eclipse.persistence.oracle.jar` from the `glassfish/modules` directory to the `glassfish/domains/domain1/lib` directory.
+ 3. Restart Payara.
+
 ## Process
 
 We will do this in 2 phases:
