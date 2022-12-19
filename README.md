@@ -19,9 +19,8 @@ Payara 6 will be released in Q2 2002, after which Payara 5 Community Edition wil
  3. Restart Payara.
 
 ### Oracle driver
- 1. Put the oracle driver (`ojdbc11-XXX.jar`) in the `glassfish/domains/domain1/lib` directory.
- 2. Also, move (not copy) `glassfish/modules/org.eclipse.persistence.oracle.jar` to the `glassfish/domains/domain1/lib` directory.
- 3. Restart Payara.
+ 1. Put the oracle driver (`ojdbc11-XXX.jar`) in the `glassfish/domains/domain1/lib/ext` directory (you have to create the directory first).
+ 2. Restart Payara.
 
 ## Process
 
