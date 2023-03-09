@@ -43,8 +43,8 @@ authn.anon          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | 
 authn.db            | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 authn.ldap          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
 authn.simple        | Done    | Done          | Done         | 3.0.0-SNAPSHOT | AK          | :heavy_check_mark:
-authn.oidc          | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/authn.oidc/pull/5)
-icat.oaipmh         | Done    | Done          |              | 2.0.0-SNAPSHOT | VB          | [PR](https://github.com/icatproject/icat.oaipmh/pull/24)
+authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | :heavy_check_mark:
+icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | :heavy_check_mark:
 dgw-dl-api          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | VB/AK       | :heavy_check_mark:
 ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128)
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9)
