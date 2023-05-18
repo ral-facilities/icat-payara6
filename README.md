@@ -68,6 +68,30 @@ icat-ansible        | Done    | Done          |              |                | 
  - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
  - Google Web Toolkit required by eCat does not support the Jakarta namespace.
 
+## Instructions - Updating XML schemas
+
+The XML schemas have also changed namespace. You can find any references to them by grepping for `xml/ns/`. These are the ones encountered so for and what they should be:
+
+In `web.xml`:
+```
+<web-app
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	version="6.0">
+```
+
+In `persistence.xml`:
+```
+<persistence
+	xmlns="https://jakarta.ee/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+	version="3.0">
+```
+
+See https://jakarta.ee/xml/ns/jakartaee/ for more info.
+
 ## Instructions – Phase 2
 
  - Change the jakartaee-api dependency to:
