@@ -14,9 +14,7 @@ Payara 6 will be released in Q2 2002, after which Payara 5 Community Edition wil
 ## Workarounds / fixes
 
 ### slf4j bug
- 1. Delete `glassfish/modules/xmlsec.jar` and `glassfish/modules/webservices-extra-xmlsec.jar`.
- 2. Download `xmlsec-rebundled-XXX.jar` from http://nexus.esc.rl.ac.uk:8081/nexus/content/repositories/releases/org/apache/santuario/xmlsec-rebundled/ and put it in the `glassfish/modules` directory
- 3. Restart Payara.
+ This has been fixed in Payara.
 
 ### Oracle driver
  1. Put the oracle driver (`ojdbc11-XXX.jar`) in the `glassfish/domains/domain1/lib/ext` directory (you have to create the directory first).
@@ -35,7 +33,7 @@ This is because JakartaEE 10 and Payara 6 have not yet been releaed.
 Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to | Check for `python` | Update XML schemas
 ---                 | ---     | ---           | ---          | ---            | ---         | ---                | ---
 icat.utils          | N/A     | N/A           | N/A          | N/A            |             | :heavy_check_mark: | 
-icat.authentication | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | N/A                | 
+icat.authentication | Done    | Done          | Done         | 5.0.0          | AK          | N/A                | N/A
 icat.server         | Done    | Done          | Done         | 6.0.0-SNAPSHOT | AK          | :heavy_check_mark: | :heavy_check_mark:
 icat.client         | Done    | Done          | Done         | 6.0.0-SNAPSHOT | AK          | N/A                | 
 icat.lucene         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | :heavy_check_mark: | 
