@@ -36,7 +36,7 @@ icat.utils          | N/A     | N/A           | N/A          | N/A            | 
 icat.authentication | Done    | Done          | Done         | 5.0.0          | AK          | N/A                | N/A
 icat.server         | Done    | Done          | Done         | 6.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
 icat.client         | Done    | Done          | Done         | 6.0.0          | AK          | N/A                | N/A
-icat.lucene         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | :heavy_check_mark: | 
+icat.lucene         | Done    | Done          | Done         | 2.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
 authn.anon          | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
 authn.db            | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
 authn.ldap          | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
