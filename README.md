@@ -61,10 +61,8 @@ icat-ansible        | Done    | Done          |              |                | 
 
 ## Issues / Blockers
 
- - No logging from slf4j in payara6-Alpha2. Applications don't deploy in payara6-Alpha3/4. See https://github.com/payara/Payara/issues/5898
- - There is no working version of `org.glassfish.main.extras:glassfish-embedded-all` for glassfish 7, which is required for the datagateway-download-api integration tests.
  - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
- - Google Web Toolkit required by eCat does not support the Jakarta namespace.
+ - Google Web Toolkit required by eCat does not support the Jakarta namespace (https://github.com/gwtproject/gwt/issues/9727). There is a snapshot repo with a jakarta version: https://repo.vertispan.com/gwt-snapshot/org/gwtproject/gwt-servlet-jakarta/2.11.0-jakarta-SNAPSHOT/
 
 ## Instructions - Updating XML schemas
 
