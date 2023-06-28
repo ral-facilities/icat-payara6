@@ -32,29 +32,29 @@ This is because JakartaEE 10 and Payara 6 have not yet been releaed.
 
 Component           | Java 11 | JakartaEE 9.1 | JakartaEE 10 | New version    | Assigned to | Check for `python` | Update XML schemas
 ---                 | ---     | ---           | ---          | ---            | ---         | ---                | ---
-icat.utils          | N/A     | N/A           | N/A          | N/A            |             | :heavy_check_mark: | N/A
+icat.utils          | N/A     | N/A           | N/A          | N/A            |             | ✔                  | N/A
 icat.authentication | Done    | Done          | Done         | 5.0.0          | AK          | N/A                | N/A
-icat.server         | Done    | Done          | Done         | 6.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
+icat.server         | Done    | Done          | Done         | 6.0.0          | AK          | ✔                  | ✔
 icat.client         | Done    | Done          | Done         | 6.0.0          | AK          | N/A                | N/A
-icat.lucene         | Done    | Done          | Done         | 2.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
-authn.anon          | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
-authn.db            | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
-authn.ldap          | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
-authn.simple        | Done    | Done          | Done         | 3.0.0          | AK          | :heavy_check_mark: | :heavy_check_mark:
-authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | :heavy_check_mark: | 
-icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | :heavy_check_mark: | 
-dgw-dl-api          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | VB/AK       | :heavy_check_mark: | :heavy_check_mark:
+icat.lucene         | Done    | Done          | Done         | 2.0.1          | AK          | ✔                  | ✔
+authn.anon          | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
+authn.db            | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
+authn.ldap          | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
+authn.simple        | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
+authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
+icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
+dgw-dl-api          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | VB/AK       | ✔                  | ✔
 ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128) | 
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9) | 
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5) | 
-ids.r2dfoo          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          |                    | 
+ids.r2dfoo          | Done    | Done          | Done         | 2.0.0          | VB          | ✔                  | ✔
 dls-ids-plugin      | N/A     | N/A           | N/A          | N/A            |             |                    | 
 common-doi          |         |               |              |                | ISIS?       |                    | 
 authn.uows (isis)   |         |               |              |                | ISIS?       |                    | 
 isis-ids-plugin     |         |               |              |                | ISIS?       |                    | 
-authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | :heavy_check_mark: | 
-authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark: | 
-clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | :heavy_check_mark: | 
+authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | 
+authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
+clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
 GWT                 | Done    | -             | 90% done     |                | AK          | N/A                | 
 ecat2               | Done    | -             | 90% done     | 5.0.0-SNAPSHOT | AK          | N/A                | 
 icat-ansible        | Done    | Done          |              |                | MR          |                    | 
