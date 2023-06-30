@@ -36,7 +36,7 @@ icat.utils          | N/A     | N/A           | N/A          | N/A            | 
 icat.authentication | Done    | Done          | Done         | 5.0.0          | AK          | N/A                | N/A
 icat.server         | Done    | Done          | Done         | 6.0.0          | AK          | ✔                  | ✔
 icat.client         | Done    | Done          | Done         | 6.0.0          | AK          | N/A                | N/A
-icat.lucene         | Done    | Done          | Done         | 2.0.1          | AK          | ✔                  | ✔
+icat.lucene         | Done    | Done          | Done         | 2.0.2          | AK          | ✔                  | ✔
 authn.anon          | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
 authn.db            | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
 authn.ldap          | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
@@ -47,8 +47,8 @@ dgw-dl-api          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | 
 ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128) | 
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9) | 
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5) | 
-ids.r2dfoo          | Done    | Done          | Done         | 2.0.0          | VB          | ✔                  | ✔
-dls-ids-plugin      | N/A     | N/A           | N/A          | N/A            |             |                    | 
+ids.r2dfoo          | Done    | Done          | Done         | 2.0.1          | VB          | ✔                  | ✔
+dls-ids-plugin      | N/A     | N/A           | N/A          | 1.3.0          |             |                    | N/A
 common-doi          |         |               |              |                | ISIS?       |                    | 
 authn.uows (isis)   |         |               |              |                | ISIS?       |                    | 
 isis-ids-plugin     |         |               |              |                | ISIS?       |                    | 
