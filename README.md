@@ -43,7 +43,7 @@ authn.ldap          | Done    | Done          | Done         | 3.0.0          | 
 authn.simple        | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
 authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
 icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
-dgw-dl-api          | Done    | Done          | Done         | 3.0.0-SNAPSHOT | VB/AK       | ✔                  | ✔
+dgw-dl-api          | Done    | Done          | Done         | 3.0.0          | VB/AK       | ✔                  | ✔
 ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128) | 
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9) | 
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5) | 
