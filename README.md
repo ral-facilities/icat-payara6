@@ -52,17 +52,17 @@ dls-ids-plugin      | N/A     | N/A           | N/A          | 1.3.0          | 
 common-doi          |         |               |              |                | ISIS?       |                    | 
 authn.uows (isis)   |         |               |              |                | ISIS?       |                    | 
 isis-ids-plugin     |         |               |              |                | ISIS?       |                    | 
-authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | 
-authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
+authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | ✔
+authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | ✔
 clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
-GWT                 | Done    | -             | 90% done     |                | AK          | N/A                | 
+GWT                 | Done    | -             | 90% done     |                | AK          | N/A                | N/A
 ecat2               | Done    | -             | 90% done     | 5.0.0-SNAPSHOT | AK          | N/A                | 
-icat-ansible        | Done    | Done          |              |                | MR          |                    | 
+icat-ansible        | Done    | Done          |              |                | MR          |                    | N/A
 
 ## Issues / Blockers
 
  - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
- - Google Web Toolkit required by eCat does not support the Jakarta namespace (https://github.com/gwtproject/gwt/issues/9727). There is a snapshot repo with a jakarta version: https://repo.vertispan.com/gwt-snapshot/org/gwtproject/gwt-servlet-jakarta/2.11.0-jakarta-SNAPSHOT/
+ - Google Web Toolkit required by eCat does not support the Jakarta namespace (https://github.com/gwtproject/gwt/issues/9727). There is a snapshot repo with a separate artifact `gwt-servlet-jakarta`: https://repo.vertispan.com/gwt-snapshot/org/gwtproject/, version `2.11.0-jakarta-SNAPSHOT`. Currently there are some packages missing package-info files in `gwt-user`. See https://github.com/gwtproject/gwt/pull/9845 and https://github.com/niloc132/gwt/pull/3.
 
 ## Instructions - Updating XML schemas
 
