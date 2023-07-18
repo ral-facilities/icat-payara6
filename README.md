@@ -49,9 +49,9 @@ ids.storage-file    | N/A     | N/A           | N/A          | N/A            | 
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5) | 
 ids.r2dfoo          | Done    | Done          | Done         | 2.0.1          | VB          | ✔                  | ✔
 dls-ids-plugin      | N/A     | N/A           | N/A          | 1.3.0          |             |                    | N/A
-common-doi          |         |               |              |                | ISIS?       |                    | 
-authn.uows (isis)   |         |               |              |                | ISIS?       |                    | 
-isis-ids-plugin     |         |               |              |                | ISIS?       |                    | 
+common-doi          |         |               |              |                | ISIS        |                    | 
+authn.uows (isis)   |         |               |              |                | ISIS        |                    | 
+isis-ids-plugin     |         |               |              |                | ISIS        |                    | 
 authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | ✔
 authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | ✔
 clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
