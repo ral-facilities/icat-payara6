@@ -14,7 +14,7 @@ Payara 6 will be released in Q2 2002, after which Payara 5 Community Edition wil
 ## Workarounds / fixes
 
 ### slf4j bug
- This has been fixed in Payara.
+ This has been fixed in Payara 6.2023.3.
 
 ### Oracle driver
  1. Put the oracle driver (`ojdbc11-XXX.jar`) in the `glassfish/domains/domain1/lib/ext` directory (you have to create the directory first).
