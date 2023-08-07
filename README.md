@@ -41,8 +41,8 @@ authn.anon          | Done    | Done          | Done         | 3.0.0          | 
 authn.db            | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
 authn.ldap          | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
 authn.simple        | Done    | Done          | Done         | 3.0.0          | AK          | ✔                  | ✔
-authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
-icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
+authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | ✔
+icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | ✔
 dgw-dl-api          | Done    | Done          | Done         | 3.0.1          | VB/AK       | ✔                  | ✔
 ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | ✔
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9) | 
@@ -61,7 +61,6 @@ icat-ansible        | Done    | Done          |              |                | 
 
 ## Issues / Blockers
 
- - 2 integration tests fail in ids.server due to change of behaviour in icat 5: https://github.com/icatproject/ids.server/issues/129
  - Google Web Toolkit required by eCat does not support the Jakarta namespace (https://github.com/gwtproject/gwt/issues/9727). There is a snapshot repo with a separate artifact `gwt-servlet-jakarta`: https://repo.vertispan.com/gwt-snapshot/org/gwtproject/, version `2.11.0-jakarta-SNAPSHOT`. Currently there are some packages missing package-info files in `gwt-user`. See https://github.com/gwtproject/gwt/pull/9845 and https://github.com/niloc132/gwt/pull/3.
 
 ## Instructions - Updating XML schemas
