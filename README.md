@@ -44,7 +44,7 @@ authn.simple        | Done    | Done          | Done         | 3.0.0          | 
 authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
 icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | 
 dgw-dl-api          | Done    | Done          | Done         | 3.0.1          | VB/AK       | ✔                  | ✔
-ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | [PR](https://github.com/icatproject/ids.server/pull/128) | 
+ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | ✔
 ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9) | 
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5) | 
 ids.r2dfoo          | Done    | Done          | Done         | 2.0.1          | VB          | ✔                  | ✔
