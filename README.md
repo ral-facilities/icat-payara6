@@ -52,8 +52,8 @@ dls-ids-plugin      | N/A     | N/A           | N/A          | 1.3.0          | 
 common-doi          |         |               |              |                | ISIS        |                    | 
 authn.uows (isis)   |         |               |              |                | ISIS        |                    | 
 isis-ids-plugin     |         |               |              |                | ISIS        |                    | 
-authn.uows_clf      | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | ✔
-authn.ip_clf        | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | ✔
+authn.uows_clf      | Done    | Done          | Done         | 2.0.0          | AK          | ✔                  | ✔
+authn.ip_clf        | Done    | Done          | Done         | 5.0.0          | AK          | ✔                  | ✔
 clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
 GWT                 | Done    | -             | 90% done     |                | AK          | N/A                | N/A
 ecat2               | Done    | -             | 90% done     | 5.0.0-SNAPSHOT | AK          | N/A                | 
