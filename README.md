@@ -45,7 +45,7 @@ authn.oidc          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | 
 icat.oaipmh         | Done    | Done          | Done         | 2.0.0-SNAPSHOT | VB          | ✔                  | ✔
 dgw-dl-api          | Done    | Done          | Done         | 3.0.1          | VB/AK       | ✔                  | ✔
 ids.server          | Done    | Done          | Done         | 2.0.0-SNAPSHOT | AK          | ✔                  | ✔
-ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_file/pull/9) | 
+ids.storage-file    | N/A     | N/A           | N/A          | N/A            |             | ✔                  | N/A
 ids.storage-test    | N/A     | N/A           | N/A          | N/A            |             | [PR](https://github.com/icatproject/ids.storage_test/pull/5) | 
 ids.r2dfoo          | Done    | Done          | Done         | 2.0.1          | VB          | ✔                  | ✔
 dls-ids-plugin      | N/A     | N/A           | N/A          | 1.3.0          |             |                    | N/A
@@ -54,14 +54,13 @@ authn.uows (isis)   |         |               |              |                | 
 isis-ids-plugin     |         |               |              |                | ISIS        |                    | 
 authn.uows_clf      | Done    | Done          | Done         | 2.0.0          | AK          | ✔                  | ✔
 authn.ip_clf        | Done    | Done          | Done         | 5.0.0          | AK          | ✔                  | ✔
-clf-ids             | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | 
-GWT                 | Done    | -             | 90% done     |                | AK          | N/A                | N/A
-ecat2               | Done    | -             | 90% done     | 5.0.0-SNAPSHOT | AK          | N/A                | 
-icat-ansible        | Done    | Done          |              |                | MR          |                    | N/A
+clf-ids             | Done    | Done          | Done         | 5.0.0          | AK          | ✔                  | N/A
+ecat2               | Done    | Done          | Done         | 5.0.0-SNAPSHOT | AK          | ✔                  | ✔
+icat-ansible        | Done    | N/A           | N/A          |                | MR          |                    | N/A
 
 ## Issues / Blockers
 
- - Google Web Toolkit required by eCat does not support the Jakarta namespace (https://github.com/gwtproject/gwt/issues/9727). There is a snapshot repo with a separate artifact `gwt-servlet-jakarta`: https://repo.vertispan.com/gwt-snapshot/org/gwtproject/, version `2.11.0-jakarta-SNAPSHOT`. Currently there are some packages missing package-info files in `gwt-user`. See https://github.com/gwtproject/gwt/pull/9845 and https://github.com/niloc132/gwt/pull/3.
+ - Google Web Toolkit required by eCat does not support the Jakarta namespace (https://github.com/gwtproject/gwt/issues/9727). There is a snapshot maven repo with a separate artifact `gwt-servlet-jakarta`: https://repo.vertispan.com/gwt-snapshot/org/gwtproject/, version `2.11.0-jakarta-SNAPSHOT` that eCat can build against. See https://github.com/gwtproject/gwt/pull/9845.
 
 ## Instructions - Updating XML schemas
 
